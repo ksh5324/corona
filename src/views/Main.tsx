@@ -1,8 +1,8 @@
-import React from "react";
+import React, { memo } from "react";
 import "../styles/Main/main.css";
 
-const Main = () => {
+const Main = memo(() => {
   return <div className="main">hjk</div>;
-};
+});
 
 export default Main;

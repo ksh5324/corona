@@ -11,7 +11,7 @@ import people from "../../img/premium-icon-distance-2775699.png";
 import I from "../Info/i";
 import { Link } from "react-router-dom";
 
-const TabPanel = (props) => {
+const TabPanel = React.memo((props) => {
   const { children, value, index, ...other } = props;
 
   return (
@@ -29,7 +29,7 @@ const TabPanel = (props) => {
       )}
     </div>
   );
-};
+});
 
 function a11yProps(index) {
   return {
@@ -65,7 +65,7 @@ export default function VerticalTabs() {
         sx={{
           borderRight: 0,
           width: "250px",
-          boxShadow: "0 0 6px 1px #666",
+          boxShadow: "0 0 3px 0px #666",
           borderRadius: "4px",
           height: "280px",
           marginTop: "20px",
