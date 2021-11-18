@@ -8,3 +8,4 @@ corona 프로젝트에는 다음과 같은 기술이 적용되었습니다.
 2. redux와 redux-thunk를 이용한 상태관리
 3. server side rendering 적용
 4. code splitting과 hooks를 이용한 속도 최적화
+5. rxjs 사용해보기
