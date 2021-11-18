@@ -4,7 +4,7 @@
 
 corona 프로젝트에는 다음과 같은 기술이 적용되었습니다.
 
-1. styled-components와 postcss를 이용한 스타일링
+1. styled-components와 scss taliwindcss를 이용한 스타일링
 2. redux와 redux-thunk를 이용한 상태관리
-3. typescript 활용
-4. server side rendering 적용
+3. server side rendering 적용
+4. code splitting과 hooks를 이용한 속도 최적화

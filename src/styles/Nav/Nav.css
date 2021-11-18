@@ -1,0 +1,31 @@
+@media screen and (min-width: 1300px) {
+  .nav-title-frame {
+    background: #ffffff;
+    box-shadow: 0px 0px 6px 1px #666666;
+    border-radius: 14px;
+    width: 250px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .nav-title-Roboto-Condensed {
+    font-family: "RobotoCondensed";
+    margin-right: 10px;
+  }
+  .nav-title-NovaSquareRegular {
+    font-family: "NovaSquareRegular";
+    color: #5d26c1;
+  }
+  .sticky__bar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+  }
+  .link-deco {
+    text-decoration: none;
+    color: black;
+  }
+}

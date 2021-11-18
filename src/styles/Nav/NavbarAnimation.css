@@ -1,0 +1,13 @@
+.side_bar {
+  position: fixed;
+  background-color: brown;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  z-index: 99;
+  transition: all 2s ease;
+  /* transform: translateY(100%); */
+}
+.show_side_bar {
+}
